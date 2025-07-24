@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --breakpoint-ssm: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+body {
+  background: hsl(0, 0%, 98%);
+}
+
+.dark body {
+  background: hsl(235, 21%, 11%);
+  color: white;
+}
+
+/* #bg {
+  background: white;
+  color: #000;
+  border-radius: 5px;
+}
+
+.dark #bg {
+  background: rgb(32, 37, 43);
+} */
