@@ -4,7 +4,7 @@ import Heroimg2 from "../assets/bg-desktop-dark.jpg";
 import Heroimg3 from "../assets/bg-mobile-light.jpg";
 import Heroimg4 from "../assets/bg-mobile-dark.jpg";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
-import { BiCircle } from "react-icons/bi";
+
 
 function Hero() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
