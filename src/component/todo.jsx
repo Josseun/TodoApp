@@ -18,11 +18,11 @@ function Todo() {
 
   const [inputValue, setInputValue] = useState("");
 
-  // function handleKeyClick(event) {
-  //   if (event.key === "Enter") {
-  //     addBtn();
-  //   }
-  // }
+  function handleKeyClick(event) {
+    if (event.key === "Enter") {
+      addBtn();
+    }
+  }
 
   function addBtn() {
     if (inputValue.trim() !== "") {
